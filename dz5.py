@@ -1,4 +1,4 @@
-productPrice = [57.8, 46.51, 97, 22, 31.8, 21.4, 111.7, 42, 8.4, 7]
+productPrice = [57.8, 46.51, 97, 22, 31.8, 21.4, 111.7, 42, 8.04, 7]
 priceSentenceA = 'A:'
 
 for priceR in productPrice:
