@@ -32,3 +32,4 @@ with open('backary.scv', 'r') as f:
             while line:
                 print(line)
                 line = f.readline().strip()
+
