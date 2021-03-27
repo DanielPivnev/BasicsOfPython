@@ -16,12 +16,14 @@ class OfficeEquipment:
 
 class Xerox(OfficeEquipment):
     def __init__(self):
-        super()
+        super().__init__()
 
 
 class Scanner(OfficeEquipment):
-    pass
+    def __init__(self):
+        super().__init__()
 
 
 class Printer(OfficeEquipment):
-    pass
+    def __init__(self):
+        super().__init__()
