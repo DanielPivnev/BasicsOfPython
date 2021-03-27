@@ -1,5 +1,5 @@
 class Worker:
-    def __init__(self,n, sn, p, w):
+    def __init__(self, n, sn, p, w):
         self.name = n
         self.surename = sn
         self.position = p
