@@ -1,18 +1,27 @@
-class ComplexNumber:
-    def __init__(self, a, bi):
-        self.a = a
-        self.bi = bi
-
-    def __add__(self, other):
-        return [self.a + other.a, self.bi + other.bi]
-
-    def __mul__(self, other):
-        return [self.a * other.a, self.bi * other.bi]
+class OfficeEquipmentWarehouse:
+    def __init__(self, value, devices_amount):
+        self.value = value
+        self.devices_amount = devices_amount
 
 
-complex_num1 = ComplexNumber(5, 7)
-complex_num2 = ComplexNumber(7, 9)
-result = complex_num1*complex_num2
-print(f'({complex_num1.a} + {complex_num1.bi}i) * ({complex_num2.a} + {complex_num2.bi}i) = {result[0]} + {result[1]}i')
-result = complex_num1+complex_num2
-print(f'{complex_num1.a} + {complex_num1.bi}i + {complex_num2.a} + {complex_num2.bi}i = {result[0]} + {result[1]}i')
+
+class OfficeEquipment:
+    def __init__(self, height, wight, length, price, brand):
+        self.height = height
+        self.length = length
+        self.wight = wight
+        self.price = price
+        self.brand = brand
+
+
+class Xerox(OfficeEquipment):
+    def __init__(self):
+        super()
+
+
+class Scanner(OfficeEquipment):
+    pass
+
+
+class Printer(OfficeEquipment):
+    pass
